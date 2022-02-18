@@ -8,19 +8,22 @@ The structure of this repository is heavily inspired by [vsund](https://github.c
 ## Table of Contents
 <!-- TOC GFM -->
 
-- [Dependencies](#dependencies)
-- [Installation](#installation)
+- [Dotbot Template](#dotbot-template)
+  - [Table of Contents](#table-of-contents)
+  - [Dependencies](#dependencies)
+  - [Installation](#installation)
     - [For installing a predefined profile:](#for-installing-a-predefined-profile)
     - [For installing single configurations:](#for-installing-single-configurations)
-- [Contents](#contents)
+  - [Contents](#contents)
     - [Profiles](#profiles)
     - [Configs](#configs)
-- [License](#license)
+  - [License](#license)
 
 <!-- /TOC -->
 
 ## Dependencies
 - git
+- windows - GitBash
 
 ## Installation
 
@@ -52,8 +55,8 @@ _*Note:*_ Any configuration can be run as sudo by adding `-sudo` to the end of i
 ### Profiles
 <pre>
 meta/profiles
-├── <a href="./meta/profiles/exampleOS1" title="exampleOS1">exampleOS1</a>
-└── <a href="./meta/profiles/exampleOS2" title="exampleOS2">exampleOS2</a>
+├── <a href="./meta/profiles/devcontainer" title="devcontainer">devcontainer</a>
+└── <a href="./meta/profiles/default" title="default">default</a>
 </pre>
 
 ### Configs
@@ -61,8 +64,7 @@ meta/profiles
 meta
 ├── <a href="./meta/base.yaml" title="base.yaml">base.yaml</a>
 └── configs
-    ├── <a href="./meta/configs/example-config-1.yaml" title="example-config-1.yaml">example-config-1.yaml</a>
-    └── <a href="./meta/configs/example-config-2.yaml" title="example-config-2.yaml">example-config-2.yaml</a>
+    └── <a href="./meta/configs/git.yaml" title="git.yaml">git.yaml</a>
 </pre>
 
 ## License

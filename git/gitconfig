@@ -1,0 +1,8 @@
+[core]
+    autocrlf = input
+    excludesFile = ~/.gitignore
+ [user]
+	name = Nathan Sitton
+	email = natesitton80@outlook.com
+[init]
+	defaultBranch = main
