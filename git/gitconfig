@@ -3,5 +3,6 @@
     excludesFile = ~/.gitignore
  [user]
 	name = Nathan Sitton
+	email = nathan@reitersoftware.com
 [init]
 	defaultBranch = main
